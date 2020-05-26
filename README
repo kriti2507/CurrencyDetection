@@ -1,1 +1,12 @@
-Test README
+This model is created to read the denominations of currency notes and can be used in ATMs, vending machines etc. 
+Using pretained weights from resnet18, the model classifies notes based on their values.
+Extremely basic implementation in pytorch without using cuda.
+
+Links to the datasets
+Train images : https://cocl.us/DL0320EN_TRAIN_TAR_PYTORCH
+Validation images : https://cocl.us/DL0320EN_VALID_TAR_PYTORCH
+Test Images : https://cocl.us/DL0320EN_TEST_TAR_PYTORCH
+
+CSV files containing labels.
+Train : https://cocl.us/DL0320EN_TRAIN_CSV
+Validation : https://cocl.us/DL0320EN_VALID_CSV
